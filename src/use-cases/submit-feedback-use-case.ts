@@ -20,11 +20,11 @@ export class SubmitFeedbackUseCase {
     let image;
 
     if(!type) {
-      throw new Error('Type is required.')
+      throw new Error('Type is required.');
     }
 
     if(!comment) {
-      throw new Error('Comment is required.')
+      throw new Error('Comment is required.');
     }
 
     if(screenshot && !screenshot.startsWith('data:image/png;base64')) {
