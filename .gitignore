@@ -1,5 +1,17 @@
 node_modules
+dist
+dist-ssr
 # Keep environment variables out of version control
 .env
+*.local
 
-./dist
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
